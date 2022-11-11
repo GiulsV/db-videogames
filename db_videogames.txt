@@ -1,0 +1,46 @@
+Videogame
+-) id: PK
+-) nome: varchar(255)
+-) trama: text
+-) data_rilascio: date
+
+Software_House
+-) id: PK
+-) nome: varchar(255)
+-) partita_iva: char(11)
+-) città: varchar(255)
+-) nazione: varchar(255)
+
+Piattaforme
+-) id: PK
+-) nome: varchar(255)
+
+Categorie
+-) id: PK
+-) nome: varchar(255)
+
+Classificazione_pegi
+-) id: PK
+-) nome: varchar(255)
+
+Giocatore
+-) id: PK
+-) nome: varchar(255)
+-) cognome: varchar(255)
+-) nik: varchar(255)
+-) città: varchar(255)
+
+Torneo
+-) id: PK
+-) nome: varchar(255)
+-) anno: year
+-) città: varchar(255)
+
+Recensione
+-) titolo: varchar(255)
+-) testo: text
+-) votazione
+
+Premi
+-) id: PK
+-) nome: varchar(255)
